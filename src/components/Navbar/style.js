@@ -15,7 +15,7 @@ const style = {
         data: {
             email: `page.c.tyler@gmail.com \n`,
             phone: `(267) 240-2298 \n`,
-            github: `https://github.com/drthisguy`,
+            github: `https://github.com/drthisguy \n`,
             linkedin: `https://www.linkedin.com/in/page-tyler-90933b52`,
             navTxt: `From the front end to the back, I am striving to make the web a better place with innovation as my passion and driving force. \n`
         }

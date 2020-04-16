@@ -7,7 +7,7 @@ import Portfolio from './pages/Portfolio/index'
 import About from './pages/About/index'
 import Contact from './pages/Contact/index'
 import './assets/css/bootstrap_simplex.min.css'
-import './App.css';
+import './App.css'
 
 function App() {
 
@@ -17,7 +17,7 @@ function App() {
   return (
     <Router>
       <div>
-        <Navbar toggleNav={toggleNav} navState={navigator.showNav} id='navbarSupportedContent20'/>
+        <Navbar toggleNav={toggleNav} navState={navigator.showNav} id='navbar-target'/>
         {/* <Route exact path="/" component={Home} />
         <Route exact path="/portfolio" component={Portfolio} />
         <Route exact path="/about" component={About} />
