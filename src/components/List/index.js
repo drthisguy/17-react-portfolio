@@ -1,9 +1,9 @@
 import React from 'react'
-import { Link, useLocation } from 'react-router-dom'
+import { Link, useLocation as location } from 'react-router-dom'
 
 export default function List() {
     
-    const { pathname } = useLocation();
+    const { pathname } = location();
 
     return (
         <ul className="custom-menu">

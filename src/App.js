@@ -11,13 +11,14 @@ import './App.css'
 
 function App() {
 
-  const [navigator, setNavigator] = useState({ showNav: false }),
-    toggleNav = () => setNavigator({ ...navigator, showNav: !navigator.showNav })
+  let [navigator, setNavigator] = useState(false)
+
+  const toggleNav = () => setNavigator(navigator = !navigator)
 
   return (
     <Router>
       <div>
-        <Navbar toggleNav={toggleNav} navState={navigator.showNav} id='navbar-target'/>
+        <Navbar toggleNav={toggleNav} navState={navigator} id='navbar-target'/>
         {/* <Route exact path="/" component={Home} />
         <Route exact path="/portfolio" component={Portfolio} />
         <Route exact path="/about" component={About} />

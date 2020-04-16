@@ -123,7 +123,7 @@ h5 {
     box-shadow: 5px 5px 3px grey;   
 }
 
-#home-links a {
+.home-links a {
     font-family: "Roboto", sans-serif;
     color: black;
     display: inline-block;
@@ -184,7 +184,6 @@ hr {
 .new-line {
   white-space: pre-line;
 }
-
 
 footer {  
     background-color: #1e2a3e;
