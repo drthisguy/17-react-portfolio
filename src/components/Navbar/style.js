@@ -8,9 +8,16 @@ const style = {
             span: "icofont-twitter text-white mt-2 mr-3",
             row1: "align-items-start",
         },
-        mat: {
+        font: {
             github: "fa fa-github",
             linkedin: "fa fa-linkedin"
+        },
+        data: {
+            email: `page.c.tyler@gmail.com \n`,
+            phone: `(267) 240-2298 \n`,
+            github: `https://github.com/drthisguy`,
+            linkedin: `https://www.linkedin.com/in/page-tyler-90933b52`,
+            navTxt: `From the front end to the back, I am striving to make the web a better place with innovation as my passion and driving force. \n`
         }
     }
   module.exports = style;

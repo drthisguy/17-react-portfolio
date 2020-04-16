@@ -1,12 +1,15 @@
 import React from 'react'
-import './style.css'
 
-export default function burgerBtn({ toggleNav }) {
+export default function burgerBtn({ toggleNav, navState }) {
+    
+    const btnClass = navState ? 'navbar-toggler burger-button collapsed' : 'navbar-toggler burger-button',
+      burgerClass = navState ? 'animated-burger' : 'animated-burger open';
+      
     return (
-        <button onclick={toggleNav} class="navbar-toggler burger-button" type="button" data-toggle="collapse"
+        <button onClick={toggleNav} className={btnClass} type="button" data-toggle="collapse"
         data-target="#navbarSupportedContent20" aria-controls="navbarSupportedContent20" aria-expanded="false"
         aria-label="Toggle navigation">
-        <div class="animated-burger"><span></span><span></span><span></span></div>
+        <div className={burgerClass}><span></span><span></span><span></span></div>
       </button>
     )
 }

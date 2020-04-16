@@ -60,7 +60,7 @@ h5 {
 
 .hello {
     font-family: "Roboto", sans-serif;
-    margin-top: 110px;
+    margin-top: 70px;
     animation: fadeup 1.25s 1;
     -webkit-animation: fadeup 1.25s 1; /* Safari 4.0 - 8.0 */
     animation-timing-function: ease;
