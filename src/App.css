@@ -109,6 +109,11 @@ h5 {
     margin-top: 50pt;
 }
 
+.mern {
+    justify-content: center;
+    height: 100px;
+}
+
 .repo{
     float: right;
     z-index: 7;

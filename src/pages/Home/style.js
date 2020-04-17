@@ -8,6 +8,8 @@ const style = {
         hello: "hello",
         spacing: "spacing",
         links: "home-links",
+        skills: "skills",
+        mern: "mern",
         carousel: "previews carousel",
         cell: 'carousel-cell'
     },
