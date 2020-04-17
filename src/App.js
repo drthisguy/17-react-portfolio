@@ -6,6 +6,7 @@ import Home from './pages/Home'
 import Portfolio from './pages/Portfolio/index'
 import About from './pages/About/index'
 import Contact from './pages/Contact/index'
+import work from './assets/portfolio.json'
 import './assets/css/bootstrap_simplex.min.css'
 import './App.css'
 
@@ -19,8 +20,8 @@ function App() {
     <Router>
       <div>
         <Navbar toggleNav={toggleNav} navState={navigator} id='navbar-target'/>
-        {/* <Route exact path="/" component={Home} />
-        <Route exact path="/portfolio" component={Portfolio} />
+        <Route exact path="/"> <Home portfolio={work}/> </Route>
+        {/* <Route exact path="/portfolio" component={Portfolio} />
         <Route exact path="/about" component={About} />
         <Route exact path="/contact" component={Contact} />
         <Footer /> */}

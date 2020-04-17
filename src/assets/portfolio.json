@@ -1,0 +1,38 @@
+[
+    {
+        "name": "About The Weather",
+        "desc": "An Openweather API Application",
+        "deploy": "https://drthisguy.github.io/06-About-The-Weather",
+        "image": "https://user-images.githubusercontent.com/48693333/77138879-145d3b80-6a4a-11ea-80c6-4a3bc3dc35e0.png"
+    },
+    {
+        "name": "Penny Pincher",
+        "desc": "A full stack budgeting app to track personal expenses by their priorities",
+        "deploy": "https://pennypincha.herokuapp.com",
+        "image": "https://user-images.githubusercontent.com/48693333/77022098-139bab00-695f-11ea-8b6a-36cfdb1dee34.gif"
+    },
+    {
+        "name":"Harry Potter Trivia",
+        "desc":"A fun quiz game to test your knowledge",
+        "deploy":"https://drthisguy.github.io/04-Harry-Potter-Trivia-Game",
+        "image":"https://user-images.githubusercontent.com/48693333/72928515-1f377080-3d26-11ea-9767-dcf5568b370b.png"
+    },
+    {
+        "name": "GitProfiler",
+        "desc": "CLI to generate PDFs for any developer's profile from their GitHub usernames",
+        "deploy": "https://github.com/drthisguy/08-Dev-Profile-Generator",
+        "image": "https://user-images.githubusercontent.com/48693333/77002626-319ee680-6932-11ea-9763-070cc7cce6e5.gif"
+    },
+    {
+        "name": "WishDish",
+        "desc": "A restaurant application designed for speed",
+        "deploy": "https://dioris-cpu.github.io/group-Project-1",
+        "image": "https://user-images.githubusercontent.com/48693333/77028924-a7c23e00-6970-11ea-8a94-92daa2884025.png"
+    },
+    {
+        "name": "HR Express",
+        "desc": "CLI content management system for company, HR departments",
+        "deploy": "https://github.com/drthisguy/11-HR-Express",
+        "image": "https://user-images.githubusercontent.com/48693333/77019460-f6fb7500-6956-11ea-93bb-7744ffd659a2.gif"
+    }
+]

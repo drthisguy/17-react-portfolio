@@ -11,7 +11,7 @@ export const Col = ({ size, classes, children }) => {
 return ( <div 
     className={size.split(' ').map( size => `col-${size}`).join(' ')
     +" "+ classes}>{children}</div>
-  )
+ )
 }           
          
     
