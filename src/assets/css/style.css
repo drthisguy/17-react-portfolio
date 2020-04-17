@@ -1,6 +1,4 @@
 
-@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css');
-@import url('https://cdnjs.cloudflare.com/ajax/libs/flickity/1.0.0/flickity.css');
 @import url('https://fonts.googleapis.com/css?family=Raleway');
 @import url('https://fonts.googleapis.com/css?family=Roboto');
 
@@ -62,7 +60,7 @@ h5 {
 
 .hello {
     font-family: "Roboto", sans-serif;
-    margin-top: 110px;
+    margin-top: 70px;
     animation: fadeup 1.25s 1;
     -webkit-animation: fadeup 1.25s 1; /* Safari 4.0 - 8.0 */
     animation-timing-function: ease;
@@ -117,14 +115,13 @@ h5 {
 .repo:hover{
     text-decoration: underline;
 }
-
 .img-fluid {
     height: 300px;
     width: 350px;
     box-shadow: 5px 5px 3px grey;   
 }
 
-.home-links a {
+#home-links a {
     font-family: "Roboto", sans-serif;
     color: black;
     display: inline-block;
@@ -182,9 +179,6 @@ hr {
     height: 100px;
 }
 
-.new-line {
-  white-space: pre-line;
-}
 
 footer {  
     background-color: #1e2a3e;
@@ -240,7 +234,7 @@ footer {
     75% {opacity: .55;}
     100% {opacity: .7;}
 }
-/* Animated burger for collapsible navbar */
+/* Animated burger for collapsable navbar */
 .animated-burger {
     width: 30px;
     height: 20px;

@@ -1,25 +1,32 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import React, { useState } from 'react'
+import { BrowserRouter as Router, Route } from 'react-router-dom'
+import Navbar from './components/Navbar'
+import Footer from './components/Footer'
+import Home from './pages/Home'
+import Portfolio from './pages/Portfolio/index'
+import About from './pages/About/index'
+import Contact from './pages/Contact/index'
+import work from './assets/portfolio.json'
+import './assets/css/bootstrap_simplex.min.css'
+import './App.css'
 
 function App() {
+
+  let [navigator, setNavigator] = useState(false)
+
+  const toggleNav = () => setNavigator(navigator = !navigator)
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <Router>
+      <div>
+        <Navbar toggleNav={toggleNav} navState={navigator} id='navbar-target'/>
+        <Route exact path="/"> <Home portfolio={work}/> </Route>
+        {/* <Route exact path="/portfolio" component={Portfolio} />
+        <Route exact path="/about" component={About} />
+        <Route exact path="/contact" component={Contact} />
+        <Footer /> */}
+      </div>
+    </Router>
   );
 }
 
