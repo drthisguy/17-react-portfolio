@@ -5,6 +5,7 @@
 @import url('https://fonts.googleapis.com/css?family=Roboto');
 
 body {
+    position: relative;
     display: flex; flex-direction: column; /*flex container*/
     height: 100vh;  /*flex container*/
 }
@@ -112,6 +113,7 @@ h5 {
 .mern {
     justify-content: center;
     height: 100px;
+    margin-top: 3rem;
 }
 
 .repo{
@@ -181,10 +183,6 @@ hr {
 .logo {
     width: 100px;
     height: auto;
-}
-
-.htcs {
-    height: 100px;
 }
 
 .new-line {

@@ -3,9 +3,9 @@ import { BrowserRouter as Router, Route } from 'react-router-dom'
 import Navbar from './components/Navbar'
 import Footer from './components/Footer'
 import Home from './pages/Home'
-import Portfolio from './pages/Portfolio/index'
-import About from './pages/About/index'
-import Contact from './pages/Contact/index'
+import Portfolio from './pages/Portfolio'
+import About from './pages/About'
+import Contact from './pages/Contact'
 import work from './assets/portfolio.json'
 import './assets/css/bootstrap_simplex.min.css'
 import './App.css'
@@ -21,10 +21,10 @@ function App() {
       <div>
         <Navbar toggleNav={toggleNav} navState={navigator} id='navbar-target'/>
         <Route exact path="/"> <Home portfolio={work}/> </Route>
-        {/* <Route exact path="/portfolio" component={Portfolio} />
+        <Route exact path="/portfolio" component={Portfolio} />
         <Route exact path="/about" component={About} />
         <Route exact path="/contact" component={Contact} />
-        <Footer /> */}
+        <Footer />
       </div>
     </Router>
   );

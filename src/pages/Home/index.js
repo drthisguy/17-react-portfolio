@@ -3,7 +3,6 @@ import { Container, Row, Col } from '../../components/Grid';
 import LinkList from "../../components/LinkList";
 import Works from "../../components/Works";
 import { boot, custom } from "./style";
-import moduleName from '../../assets/img/mern-img.png'
 
 export default function Home({ portfolio }) {
     return (
@@ -30,7 +29,7 @@ export default function Home({ portfolio }) {
 
             <Container classes={custom.skills} >
                 <Row classes={custom.mern} >
-                    <img src={'../../assets/img/mern-img.png'} className={custom.mern} alt={'MERN'}>
+                    <img src={'../assets/img/mern-img.png'} className={custom.mern} alt={'MERN'}>
                     </img>
                 </Row>
             </Container>
