@@ -1,7 +1,7 @@
 
 const style = {
         boot: {
-            nav: "navbar navbar-light navbar-1 white mb-4",
+            nav: "navbar navbar-light navbar-1 white",
             collapse: "collapse navbar-collapse nav-class bgc-dark",
             col2: "d-none d-md-block mr-auto",
             flex: "tweet d-flex",

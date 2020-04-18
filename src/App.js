@@ -22,7 +22,7 @@ function App() {
         <Navbar toggleNav={toggleNav} navState={navigator} id='navbar-target'/>
         <Route exact path="/"> <Home portfolio={work} /> </Route>
         <Route exact path="/portfolio"> <Portfolio portfolio={work} /> </Route>
-        <Route exact path="/about" component={About} />
+        <Route exact path="/about" ><About /> </Route>
         <Route exact path="/contact" component={Contact} />
         <Footer />
       </div>

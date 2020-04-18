@@ -1,6 +1,6 @@
 const style = {
     boot: {
-        alignRow: "mb-5 align-items-center",        
+        alignRow: "mb-3 align-items-center",        
     },
     custom: {
         flex: "flex-container",
