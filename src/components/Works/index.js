@@ -4,7 +4,7 @@ export default function Works({ works }) {
     
     return (
     works.map( work => (
-        <div className={'col-md-4 carousel-cell'}>
+        <div className={'col carousel-cell'}>
             <div className={'set-image-txt'}>
                 <div className={'images'}>
                     <div className={'darken-txt'}>
