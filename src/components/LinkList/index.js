@@ -13,11 +13,11 @@ export default function Home() {
                 <Link to="/" className={pathname === '/' ? 'active' : ''}>
                     Home
                 </Link>
-                <Link to="/about" className={pathname === '/about' ? 'active' : ''}>
-                    About Me
-                </Link>
                 <Link to="/portfolio" className={pathname === '/portfolio' ? 'active' : ''}>
                     Portfolio
+                </Link>
+                <Link to="/about" className={pathname === '/about' ? 'active' : ''}>
+                    About Me
                 </Link>
                 <Link to="/Resume" className={pathname === '/Resume' ? 'active' : ''}>
                     Resume

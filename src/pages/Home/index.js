@@ -5,7 +5,8 @@ import Works from "../../components/Works";
 import { boot, custom } from "./style";
 
 export default function Home({ portfolio }) {
-    portfolio = portfolio.slice(3)
+    const clone = portfolio,
+    topRow = clone.slice(0, 3)
     return (
         <div className={custom.flex}>
             <Container classes={custom.hello}>
@@ -24,7 +25,14 @@ export default function Home({ portfolio }) {
 
             <Container classes={custom.carousel} >
                 <Row >
-                    <Works works={portfolio} />
+                    <Works works={topRow} />
+                </Row>
+            </Container>
+
+            <Container classes={custom.skills} >
+                <Row classes={custom.mern} >
+                    <img src={'../assets/img/mern-img.png'} className={custom.mern} alt={'MERN'}>
+                    </img>
                 </Row>
             </Container>
         </div>
