@@ -5,10 +5,10 @@ import List from "../List";
 import BurgerBtn from "../BurgerBtn";
 import { boot, font, data } from "./style";
 
-export default function Navbar({ toggleNav, navState, id }) {
+export default function Navbar({ toggleNav, navState }) {
   return (
     <nav className={boot.nav}>
-      <Collapse classes={boot.collapse} id={id}>
+      <Collapse classes={boot.collapse} id={'navbar-target'}>
         <Container classes={"p-4"}>
           <Row classes={boot.row1}>
             <Col size={"md-2"}>

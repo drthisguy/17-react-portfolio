@@ -19,7 +19,7 @@ function App() {
   return (
     <Router>
       <div>
-        <Navbar toggleNav={toggleNav} navState={navigator} id='navbar-target'/>
+        <Navbar toggleNav={toggleNav} navState={navigator} />
         <Route exact path="/"> <Home portfolio={work} /> </Route>
         <Route exact path="/portfolio"> <Portfolio portfolio={work} /> </Route>
         <Route exact path="/about" ><About /> </Route>
