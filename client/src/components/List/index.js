@@ -23,9 +23,9 @@ export default function List() {
                 </Link>    
             </li>
             <li className={pathname === "/resume" ? "active" : ""}>
-                <Link to="/resume">
+                <a href={'../assets/Page Tyler_0120.pdf'} target="_blank" rel="noreferrer noopener">
                 R&eacute;sum&eacute;
-                </Link>    
+                </a>    
             </li>
             <li className={pathname === "/contact" ? "active" : ""}>
                 <Link to="/contact">

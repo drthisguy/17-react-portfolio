@@ -19,9 +19,10 @@ export default function Home() {
                 <Link to="/about" className={pathname === '/about' ? 'active' : ''}>
                     About Me
                 </Link>
-                <Link to="/Resume" className={pathname === '/Resume' ? 'active' : ''}>
+                <a href="../assets/Page Tyler_0120.pdf" target="_blank" rel="noreferrer noopener"
+                 className={pathname === '/Resume' ? 'active' : ''}>
                     Resume
-                </Link>
+                </a>
                 <Link to="/contact" className={pathname === '/contact' ? 'active' : ''}>
                     Contact
                 </Link>
