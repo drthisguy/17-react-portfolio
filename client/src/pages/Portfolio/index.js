@@ -14,8 +14,8 @@ export default function Home({ portfolio }) {
                         <Row classes={boot.alignRow} >
                             <Col size={'lg-6'} >
                                 <h2>My Portfolio:</h2>
-                                <p class="mb-0">Have a look at some of the projects I've worked on.</p>
-                                <p class="mb-0">To find more repos, check out my <a href="https://github.com/drthisguy"
+                                <p className={"mb-0"}>Have a look at some of the projects I've worked on.</p>
+                                <p className={"mb-0"}>To find more repos, check out my <a href="https://github.com/drthisguy"
                                     target="_blank" rel="noreferrer noopener">GitHub Profile.</a></p>
                             </Col>
                             <LinkList />
@@ -23,12 +23,12 @@ export default function Home({ portfolio }) {
                     </Col>
                 </Row>
             </Container>
-            <Container classes={custom.carousel} >
+            <Container classes={custom.previews} >
                 <Row >
                     <Works works={portfolio.slice(0,3)} />
                 </Row>
             </Container>
-            <Container classes={custom.carousel} >
+            <Container classes={custom.previews} >
                 <Row classes={custom.spacing}>
                     <Works works={portfolio.slice(3)} />
                 </Row>
