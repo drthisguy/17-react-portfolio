@@ -1,29 +1,69 @@
-# Create React Express App
+[Company Directory](https://page-tyler.herokuapp.com/contact)
 
-## About This Boilerplate
 
-This setup allows for a Node/Express/React app which can be easily deployed to Heroku.
+# 16-React-Profile
 
-The front-end React app will auto-reload as it's updated via webpack dev server, and the backend Express app will auto-reload independently with nodemon.
+Developer Profile
 
-## Starting the app locally
+## Table of contents
+* [General info](#general-info)
+* [Technologies](#technologies)
+* [Setup](#setup)
+* [Links](#links)
+* [Screens](#screen-grabs)
+* [Sources](#sources)
+* [Issues](#issues)
 
-Start by installing front and backend dependencies. While in this directory, run the following command:
+___
 
+## General info
+This is the latest rebuild of my personal, developer profile. The goal here was completely redo the existing profile with react components using create-react-app.Essentially, all the HTML and CSS design from the original has been persevered.  Although a little bootstrapy, It look pretty good overall. Additionally, for the first time, the emailer form on the contact page is functional with this, now being a full stack application.  
+
+___
+
+## Technologies
+* ReactJS
+* React-router-dom
+* axios
+* express
+* nodemailer
+
+	
+## Setup
+To run this project locally using npm cli:
 ```
-npm install
+$ type: npm install && npm start
+$ Or See deployed website.  
 ```
+___
 
-This should install node modules within the server and the client folder.
+## Links:
 
-After both installations complete, run the following command in your terminal:
+[Github Repo](https://github.com/drthisguy/17-react-portfolio)
 
-```
-npm start
-```
+[Deployed Website](https://page-tyler.herokuapp.com/contact)
 
-Your app should now be running on <http://localhost:3000>. The Express server should intercept any AJAX requests from the client.
+___
 
-## Deployment (Heroku)
+## Screens:
+![image](https://user-images.githubusercontent.com/48693333/77214735-cc402680-6ae6-11ea-88a1-5e0458bc433a.png)
 
-To deploy, simply add and commit your changes, and push to Heroku. As is, the NPM scripts should take care of the rest.
+https://user-images.githubusercontent.com/48693333/73025158-12d21700-3dfd-11ea-9719-b6a64f466a20.png
+
+https://user-images.githubusercontent.com/48693333/73025226-2f6e4f00-3dfd-11ea-8667-4044b4dfccf7.png
+
+https://user-images.githubusercontent.com/48693333/73025283-5036a480-3dfd-11ea-911f-7f4ce0fa9960.png
+
+___
+
+## Sources
+https://reactjs.org/docs  
+reacttraining.com
+https://react.semantic-ui.com
+https://stackoverflow.com
+
+
+## Issues & Contact
+
+No known issues.  If any are found or if there are questions, email:  
+page.c.tyler@gmail.com 
