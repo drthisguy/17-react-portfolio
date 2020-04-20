@@ -46,14 +46,7 @@ ___
 ___
 
 ## Screens:
-![image](https://user-images.githubusercontent.com/48693333/77214735-cc402680-6ae6-11ea-88a1-5e0458bc433a.png)
-
-https://user-images.githubusercontent.com/48693333/73025158-12d21700-3dfd-11ea-9719-b6a64f466a20.png
-
-https://user-images.githubusercontent.com/48693333/73025226-2f6e4f00-3dfd-11ea-8667-4044b4dfccf7.png
-
-https://user-images.githubusercontent.com/48693333/73025283-5036a480-3dfd-11ea-911f-7f4ce0fa9960.png
-
+![image](https://user-images.githubusercontent.com/48693333/79709066-3509f280-828f-11ea-9ea9-1cb90186fd31.png)
 ___
 
 ## Sources
