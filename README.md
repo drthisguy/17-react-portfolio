@@ -51,8 +51,8 @@ ___
 
 ## Sources
 https://reactjs.org/docs  
-reacttraining.com
-https://react.semantic-ui.com
+reacttraining.com. 
+https://react.semantic-ui.com.  
 https://stackoverflow.com
 
 
