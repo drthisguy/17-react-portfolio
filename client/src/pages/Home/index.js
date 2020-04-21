@@ -31,8 +31,10 @@ export default function Home({ portfolio }) {
 
             <Container classes={custom.skills} >
                 <Row classes={custom.mern} >
-                    <img src={'../assets/img/mern-img.png'} className={custom.mern} alt={'MERN'}>
-                    </img>
+                    <Col size={'md-12'} >
+                        <img src={'../assets/img/mern-img.png'} className={custom.mern} alt={'MERN'}>
+                        </img>
+                    </Col>
                 </Row>
             </Container>
         </div>

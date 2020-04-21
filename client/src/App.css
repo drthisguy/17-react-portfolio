@@ -135,7 +135,7 @@ h5 {
 .mern {
     justify-content: center;
     height: 100px;
-    margin-top: 3rem;
+    margin: 3rem;
 }
 
 .repo{
@@ -214,6 +214,9 @@ hr {
   white-space: pre-line;
 }
 
+.foot-pos {
+    position: absolute;
+}
 footer {  
     background-color: #1e2a3e;
     margin-top: 60pt;
