@@ -7,26 +7,37 @@ import { boot, custom } from './style'
 
 export default function Contact() {
 
-    const [email, setEmail] = useState({
-        name: '',
-        email: '',
-        message: ''
-    })
+    const [alert, toggleMessage] = useState({show: false}),
 
-    const submitEmail = e => {
-        e.preventDefault()
+    [email, setEmail] = useState({}),
 
-        API.postMail(email)
-
-        setEmail({});
-        console.log(email)
-    }
-     
-    const onInputChange = e => {
+    onInputChange = e => {
         const { name, value } = e.target;
         setEmail({...email, [name]: value })
-    }
+    },
 
+    handleSubmit = async e => {
+        e.preventDefault()
+        e.target.reset();
+
+        const { data } = await API.postMail(email)
+        
+            if (data.status === 'success') {
+            toggleMessage({
+                show: true,
+                color: 'green',
+                alert: 'Message Sent!',
+            })
+        }   else if (data.status === 'fail') {
+            toggleMessage({
+                show: true,
+                color: 'red',
+                alert: 'Message failed to send.',
+            })
+        }  
+    }
+     
+    
     return (
         <div className={custom.flex}>
             <Container classes={custom.contact} >
@@ -49,7 +60,7 @@ export default function Contact() {
                 <Row >
                     <Col size={'md-12'} >
                         <div className={boot.card}>
-                            <form className={boot.body}>
+                            <form onSubmit={handleSubmit} className={boot.body}>
                                 <h2 className={boot.header}>Contact</h2>
                                 <div className={boot.group}>
                                     <label>Name:</label>
@@ -67,9 +78,12 @@ export default function Contact() {
                                     name="message" rows="6" placeholder="Type your message here..."/>
                                 </div>
 
-                                <Col size={'md-12'} classes={boot.btn} >
-                                    <Button onClick={submitEmail} type="button">Submit
+                                <Col size={'md-6'} classes={boot.btn} >
+                                    <Button type="submit">Submit
                                      </Button>
+                                </Col>
+                                <Col size={'md-6'} classes={boot.btn} >
+                                   {alert.show && <Messenger msg={alert.alert} color={alert.color} />}
                                 </Col>
                             </form>
                         </div>
@@ -79,3 +93,5 @@ export default function Contact() {
         </div>
     )
 }
+
+const Messenger = ({ msg, color }) => <p style={{color: color}}>{msg}</p>

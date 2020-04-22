@@ -26,14 +26,12 @@ const express = require('express'),
     }
   });
 
-  router.post('/send', (req, res) => {
-    const  name = req.body.name,
-     email = req.body.email,
-     message = req.body.message,
-     content = `name: ${name} \n email: ${email} \n message: ${message} `,
+  router.post('/send', ({ body }, res) => {
+
+    const content = `name: ${body.name} \n email: ${body.email} \n message: ${body.message} `,
   
      mail = {
-      from: name,
+      from: body.name,
       to: 'page.c.tyler@gmail.com', 
       subject: 'New Message from your Profile, Contact Form',
       text: content

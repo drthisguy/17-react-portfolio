@@ -3,16 +3,9 @@ import axios from 'axios';
 
 export default {
     postMail: (email) => {
-        axios({
+      return axios({
             method: "POST", 
-            url:"/send", 
+            url:"http://localhost:3001/send", 
             data:  email
-          }).then( res =>{
-            if (res.data.status === 'success'){
-              console.log("Message Sent."); 
-            }else if(res.data.status === 'fail'){
-              console.log("Message failed to send.")
-            }
           })
-    }
-}
+    }}
