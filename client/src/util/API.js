@@ -1,11 +1,9 @@
 import axios from 'axios';
+import path from 'path';
 
 
 export default {
-    postMail: (email) => {
-      return axios({
-            method: "POST", 
-            url:"http://localhost:3001/send", 
-            data:  email
-          })
-    }}
+
+    postMail: (email) => axios.post("/send", email)
+
+  }

@@ -18,9 +18,9 @@ const express = require('express'),
 
  transporter = nodemailer.createTransport(transport);
 
- transporter.verify((error, success) => {
-    if (error) {
-      console.log(error);
+ transporter.verify((err, success) => {
+    if (err) {
+      console.log(err);
     } else {
       console.log('Server is ready to take messages');
     }
@@ -39,13 +39,9 @@ const express = require('express'),
 
     transporter.sendMail(mail, (err, data) => {
         if (err) {
-          res.json({
-            status: 'fail'
-          })
+          res.json({ status: 'fail' })
         } else {
-          res.json({
-           status: 'success'
-          })
+          res.json({ status: 'success' })
         }
       })
     })
