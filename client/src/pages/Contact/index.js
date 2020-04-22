@@ -23,8 +23,8 @@ export default function Contact() {
     }
      
     const onInputChange = e => {
-        const { name, value } = e.target
-        setEmail({...setEmail, [name]: value })
+        const { name, value } = e.target;
+        setEmail({...email, [name]: value })
     }
 
     return (
