@@ -34,5 +34,23 @@
         "desc": "CLI content management system for company, HR departments",
         "deploy": "https://github.com/drthisguy/11-HR-Express",
         "image": "https://user-images.githubusercontent.com/48693333/77019460-f6fb7500-6956-11ea-93bb-7744ffd659a2.gif"
+    },
+    {
+        "name": "The Reader Succeeder",
+        "desc": "A full MERN application for managing your reading list with google books",
+        "deploy": "https://succeeder-reader.herokuapp.com/",
+        "image": "https://user-images.githubusercontent.com/48693333/80837580-14ae3200-8bc5-11ea-8548-a7587317b039.png"
+    },
+    {
+        "name": "Placeholder for some future project",
+        "desc": "",
+        "deploy": "",
+        "image": ""
+    },
+    {
+        "name": "Placeholder for some future project",
+        "desc": "",
+        "deploy": "",
+        "image": ""
     }
 ]

@@ -5,7 +5,11 @@ import Works from "../../components/Works";
 import { boot, custom } from "./style";
 
 export default function Home({ portfolio }) {
- 
+
+    const row1 = portfolio.filter((x, i) => i < 3),
+        row2 = portfolio.filter((x, i) => i > 2 && i < 6 ),
+        row3 = portfolio.filter((x, i) => i > 5 );
+    
     return (
         <div className={custom.flex}>
             <Container classes={custom.hello}>
@@ -25,12 +29,20 @@ export default function Home({ portfolio }) {
             </Container>
             <Container classes={custom.previews} >
                 <Row >
-                    <Works works={portfolio.slice(0,3)} />
+                    <Works works={row1} 
+                    />
                 </Row>
             </Container>
             <Container classes={custom.previews} >
                 <Row classes={custom.spacing}>
-                    <Works works={portfolio.slice(3)} />
+                    <Works works={row2} 
+                    />
+                </Row>
+            </Container>
+            <Container classes={custom.previews} >
+                <Row classes={custom.spacing}>
+                    <Works works={row3} 
+                    />
                 </Row>
             </Container>
         </div>
