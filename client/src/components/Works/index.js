@@ -3,7 +3,7 @@ import React from 'react'
 export default function Works({ works }) {
     
     return (
-    works.map( (work, i ) => (
+    works.map( (work, i) => (
         <div key={i} className={'col carousel-cell'}>
             <div className={'set-image-txt'}>
                 <div className={'images'}>

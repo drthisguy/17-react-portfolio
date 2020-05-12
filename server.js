@@ -1,3 +1,4 @@
+require('dotenv').config();
 const express = require('express'),
  router = express.Router(),
  path = require("path"),
@@ -11,9 +12,9 @@ const express = require('express'),
     host: 'smtp.gmail.com.',
     port: 587,
     auth: {
-    user: creds.USER,
-    pass: creds.PASS
-  }
+      user: creds.USER,
+      pass: creds.PASS
+    }
 },
 
  transporter = nodemailer.createTransport(transport);
@@ -28,12 +29,12 @@ const express = require('express'),
 
   router.post('/send', ({ body }, res) => {
 
-    const content = `name: ${body.name} \n email: ${body.email} \n message: ${body.message} `,
+    const content = `name: ${body.name} \n company: ${body.company} \n email: ${body.email} \n message: ${body.message} `,
   
      mail = {
       from: body.name,
       to: 'page.c.tyler@gmail.com', 
-      subject: 'New Message from your Profile, Contact Form',
+      subject: `New Profile Message from ${body.name} with ${body.company}, Contact Form`,
       text: content
     };
 

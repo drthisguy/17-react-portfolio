@@ -47,7 +47,7 @@ export default function Contact() {
                             <Col size={'lg-6'} >
                                 <h2>Reach Out</h2>  
                                 <p style={{marginBottom:'0px'}}>
-                                    If you're a business seeking a web presence or an employer looking to hire, you can get a hold of me here.  Talk to you soon.
+                                    If you're an employer looking to the right hire or business seeking a web presence or, you can get a hold of me here.  I look to hearing you.
                                 </p>
                             </Col>
                             <LinkList />
@@ -62,16 +62,31 @@ export default function Contact() {
                         <div className={boot.card}>
                             <form onSubmit={handleSubmit} className={boot.body}>
                                 <h2 className={boot.header}>Contact</h2>
+                                <Row >
+                                <Col size='md-6' >
                                 <div className={boot.group}>
                                     <label>Name:</label>
                                     <Input onChange={onInputChange} 
-                                    name="name" type="text" placeholder="Your Name"/>
+                                    name="name" type="text" placeholder="Art Vandelay"/>
                                 </div>
+                                </Col>
+                                <Col size='md-6' >
+                                <div className={boot.group}>
+                                    <label>Company:</label>
+                                    <Input onChange={onInputChange} 
+                                    name="company" type="text" placeholder="Vandelay Industries" />
+                                </div>
+                                </Col>
+                                </Row>
+                                <Row >
+                                <Col size='md-6' >
                                 <div className={boot.group}>
                                     <label>Email:</label>
                                     <Input onChange={onInputChange} 
-                                    name="email" type="email" placeholder="youremail@example.com"/>
+                                    name="email" type="email" placeholder="art@vandelayindustries.com"/>
                                 </div>
+                                </Col>
+                                </Row>
                                 <div className={boot.group}>
                                     <label>Message:</label>
                                     <TextArea onChange={onInputChange} 

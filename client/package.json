@@ -2,6 +2,7 @@
   "name": "react-portfolio",
   "version": "1.0.0",
   "private": true,
+  "proxy": "http://localhost:3001/",
   "engines": {
     "node": "12.12.0"
   },
