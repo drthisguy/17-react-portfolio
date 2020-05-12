@@ -37,7 +37,6 @@ export default function Contact() {
         }  
     }
      
-    
     return (
         <div className={custom.flex}>
             <Container classes={custom.contact} >

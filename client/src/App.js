@@ -24,7 +24,7 @@ function App() {
         <Route exact path="/portfolio"> <Portfolio portfolio={work} /> </Route>
         <Route exact path="/about" ><About /> </Route>
         <Route exact path="/contact" component={Contact} />
-        <Footer />
+        <Footer navState={navigator} />
       </div>
     </Router>
   );

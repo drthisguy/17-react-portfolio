@@ -214,6 +214,11 @@ hr {
   white-space: pre-line;
 }
 
+.foot-pos {
+    margin-top: 0em;
+}
+
+
 footer {  
     background-color: #1e2a3e;
     margin-top: 60pt;

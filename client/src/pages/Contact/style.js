@@ -13,7 +13,6 @@ const style = {
         flex: "flex-container",
         contact: "contact",
         reach: "reach-out"
-    },
-    
+    }
 }
 module.exports = style;
