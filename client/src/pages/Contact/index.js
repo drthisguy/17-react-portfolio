@@ -46,7 +46,7 @@ export default function Contact() {
                             <Col size={'lg-6'} >
                                 <h2>Reach Out</h2>  
                                 <p style={{marginBottom:'0px'}}>
-                                    If you're an employer looking for the right hire or a business seeking a web presence, feel free to get a hold of me here.  I look forward to hearing you.
+                                    If you're an employer looking for the right hire or a business seeking a web presence, feel free to email me here.  I look forward to hearing from you.
                                 </p>
                             </Col>
                             <LinkList />

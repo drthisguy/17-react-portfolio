@@ -7,7 +7,7 @@ const style = {
         bigBtn:"btn btn-primary btn-lg",
         group: "form-group",
         ctrl: "form-control",
-        header: "card-title card-header text-primary pl-0"
+        header: "card-title card-header text-primary pl-0 mb-2"
     },
     custom: {
         flex: "flex-container",
