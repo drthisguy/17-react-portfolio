@@ -19,7 +19,7 @@ export default function Home({ portfolio }) {
                             <Col size={'lg-6'} >
                                 <h2>My Portfolio:</h2>
                                 <p className={"mb-0"}>Have a look at some of the projects I've worked on.</p>
-                                <p className={"mb-0"}>To find more repos, check out my <a href="https://github.com/drthisguy"
+                                <p className={"mb-0"}>To find out more, see the repos on my<a href="https://github.com/drthisguy"
                                     target="_blank" rel="noreferrer noopener">GitHub Profile.</a></p>
                             </Col>
                             <LinkList />

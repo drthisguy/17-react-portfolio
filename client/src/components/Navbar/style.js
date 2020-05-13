@@ -17,7 +17,7 @@ const style = {
             phone: `(267) 240-2298 \n`,
             github: `https://github.com/drthisguy \n`,
             linkedin: `https://www.linkedin.com/in/page-tyler-90933b52 \n`,
-            navTxt: `From the front end to the back, I am striving to make the web a better place with innovation as my passion and driving force. \n`
+            navTxt: `From the front end to the back, I'm just striving to make the web a better place with innovation as a driving force. \n`
         }
     }
   module.exports = style;
