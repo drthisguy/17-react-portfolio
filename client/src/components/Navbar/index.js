@@ -38,8 +38,8 @@ export default function Navbar({ toggleNav, navState }) {
             </Col>
             <Col size={"md-4"} classes={boot.col2}>
               <div className="new-line">
-                <h3>Hire Me</h3>
-                <h5>You know you wanna...</h5>
+                <h3>Hiring?</h3>
+                <h5>Help is on the way...</h5>
                 <a href={`mailto:${data.email}`}>{data.email}</a>
                 <a href="tel:2672402298">{data.phone}</a>
               </div>

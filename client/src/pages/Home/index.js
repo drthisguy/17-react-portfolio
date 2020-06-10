@@ -15,7 +15,7 @@ export default function Home({ portfolio }) {
                         <Row classes={boot.alignRow} >
                             <Col size={'lg-6'} >
                                 <h2>Hello, I'm Page Tyler</h2>
-                                <p className={'mb-0'}>A Professional &amp; Resourceful Full Stack Developer</p>
+                                <p className={'mb-0'}>An Industrious &amp; Professional Full Stack Developer</p>
                             </Col>
                             <LinkList />
                         </Row>
