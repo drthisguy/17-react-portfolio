@@ -10,11 +10,11 @@ export default function Navbar({ toggleNav, navState }) {
     <nav className={boot.nav}>
       <Collapse classes={boot.collapse} id={'navbar-target'}>
         <Container classes={"p-4"}>
-          <Row classes={boot.row1}>
+          <Row>
             <Col size={"md-2"}>
               <List />
             </Col>
-            <Col size={"md-6"} classes={boot.col2}>
+            <Col size={"md-6"} >
               <div className={boot.flex}>
                 <span className={boot.span} />
                 <p className={"new-line"}>
@@ -36,7 +36,7 @@ export default function Navbar({ toggleNav, navState }) {
                 </p>
               </div>
             </Col>
-            <Col size={"md-4"} classes={boot.col2}>
+            <Col size={"md-4"} classes=''>
               <div className="new-line">
                 <h3>Hiring?</h3>
                 <h5>Help is on the way...</h5>
