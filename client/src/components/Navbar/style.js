@@ -15,7 +15,7 @@ const style = {
             phone: `(267) 240-2298 \n`,
             github: `https://github.com/drthisguy \n`,
             linkedin: `https://www.linkedin.com/in/page-tyler-90933b52 \n`,
-            navTxt: `Striving to make the web a better place from front to back. \n`
+            navTxt: `"Striving to make the web a better place from \n front to back". \n`
         }
     }
   module.exports = style;

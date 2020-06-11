@@ -10,7 +10,7 @@ export default function Navbar({ toggleNav, navState }) {
     <nav className={boot.nav}>
       <Collapse classes={boot.collapse} id={'navbar-target'}>
         <Container classes={"p-4"}>
-          <Row>
+          <Row classes='nav-row'>
             <Col size={"md-2"}>
               <List />
             </Col>
@@ -34,9 +34,9 @@ export default function Navbar({ toggleNav, navState }) {
                     </a>
                   </em>
                 </p>
-              </div>
+              </div> 
             </Col>
-            <Col size={"md-4"} classes=''>
+            <Col size={"md-4"} classes='hire'>
               <div className="new-line">
                 <h3>Hiring?</h3>
                 <h5>Help is on the way...</h5>

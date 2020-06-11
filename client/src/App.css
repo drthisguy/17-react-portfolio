@@ -51,6 +51,9 @@ a.navbar-brand {
     outline: none;
 }
 
+.nav-row {
+    width: 100%;
+}
  /* pushes footer and navbar. centers content. */
 .flex-container {
     flex: 1 0 auto;
