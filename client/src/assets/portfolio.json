@@ -1,9 +1,9 @@
 [
     {
-        "name": "About The Weather",
-        "desc": "An Openweather API Application",
-        "deploy": "https://drthisguy.github.io/06-About-The-Weather",
-        "image": "https://user-images.githubusercontent.com/48693333/77138879-145d3b80-6a4a-11ea-80c6-4a3bc3dc35e0.png"
+        "name": "Sapling Zone Clock App",
+        "desc": "An Application for configuring Sapling Zone Clocks for their applicable cities",
+        "deploy": "https://sapling-zoneclocks.herokuapp.com/",
+        "image": "https://user-images.githubusercontent.com/48693333/87717409-55f2be80-c77e-11ea-84e0-4e2711081606.png"
     },
     {
         "name": "myEHR",
@@ -42,10 +42,10 @@
         "image": "https://user-images.githubusercontent.com/48693333/80837580-14ae3200-8bc5-11ea-8548-a7587317b039.png"
     },
     {
-        "name": "Company Directory",
-        "desc": "Searchable & sortable employee directory built with React.",
-        "deploy": "https://compdirect.herokuapp.com/",
-        "image": "https://user-images.githubusercontent.com/48693333/79058874-3610a380-7c41-11ea-8343-a33239e36c5f.gif"
+        "name": "About The Weather",
+        "desc": "An Openweather API Application",
+        "deploy": "https://drthisguy.github.io/06-About-The-Weather",
+        "image": "https://user-images.githubusercontent.com/48693333/77138879-145d3b80-6a4a-11ea-80c6-4a3bc3dc35e0.png"
     },
     {
         "name": "WishDish",
