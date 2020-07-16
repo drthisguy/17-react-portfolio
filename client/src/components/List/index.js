@@ -23,7 +23,7 @@ export default function List() {
                 </Link>    
             </li>
             <li className={pathname === "/resume" ? "active" : ""}>
-                <a href={'../assets/Page Tyler_0120.pdf'} target="_blank" rel="noreferrer noopener">
+                <a href='../assets/Page_Tyler_202007.pdf' target="_blank" rel="noreferrer noopener">
                 R&eacute;sum&eacute;
                 </a>    
             </li>

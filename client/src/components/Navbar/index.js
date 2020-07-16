@@ -31,6 +31,12 @@ export default function Navbar({ toggleNav, navState }) {
                       target="_blank"
                       rel="noreferrer noopener">
                       Linkedin Profile.
+                    </a>{"\n"}
+                    <i className="fa fa-university" />
+                    <a href='../assets/Page Tyler Unofficial Transcript.pdf'
+                      target="_blank"
+                      rel="noreferrer noopener">
+                      Full Stack Transcript.
                     </a>
                   </em>
                 </p>
