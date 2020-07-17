@@ -7,7 +7,7 @@
     },
     {
         "name": "myEHR",
-        "desc": "A full MERN app for maintaining the health records for family or others, cared for.",
+        "desc": "A full MERN stack app for maintaining the health records for family or others, cared for.",
         "deploy": "https://myehrs.herokuapp.com/",
         "image": "https://user-images.githubusercontent.com/48693333/81631559-1b635300-93d6-11ea-9de1-5181f3211ffd.gif"
     },
