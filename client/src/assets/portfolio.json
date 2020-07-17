@@ -12,11 +12,11 @@
         "image": "https://user-images.githubusercontent.com/48693333/81631559-1b635300-93d6-11ea-9de1-5181f3211ffd.gif"
     },
     {
-        "name": "HR Express",
-        "desc": "CLI content management system for company, HR departments",
-        "deploy": "https://github.com/drthisguy/11-HR-Express",
-        "image": "https://user-images.githubusercontent.com/48693333/77019460-f6fb7500-6956-11ea-93bb-7744ffd659a2.gif"
-    },    
+        "name":"Harry Potter Trivia",
+        "desc":"A fun quiz game to test your knowledge",
+        "deploy":"https://drthisguy.github.io/04-Harry-Potter-Trivia-Game",
+        "image":"https://user-images.githubusercontent.com/48693333/72928515-1f377080-3d26-11ea-9767-dcf5568b370b.png"
+    },
     {
         "name": "Penny Pincher",
         "desc": "A full stack budgeting app to track personal expenses by their priorities",
@@ -30,17 +30,17 @@
         "image": "https://user-images.githubusercontent.com/48693333/77002626-319ee680-6932-11ea-9763-070cc7cce6e5.gif"
     },
     {
-        "name":"Harry Potter Trivia",
-        "desc":"A fun quiz game to test your knowledge",
-        "deploy":"https://drthisguy.github.io/04-Harry-Potter-Trivia-Game",
-        "image":"https://user-images.githubusercontent.com/48693333/72928515-1f377080-3d26-11ea-9767-dcf5568b370b.png"
-    },
-    {
         "name": "The Reader Succeeder",
         "desc": "A full MERN application for managing your reading list with google books",
         "deploy": "https://succeeder-reader.herokuapp.com/",
         "image": "https://user-images.githubusercontent.com/48693333/80837580-14ae3200-8bc5-11ea-8548-a7587317b039.png"
     },
+    {
+        "name": "HR Express",
+        "desc": "CLI content management system for company, HR departments",
+        "deploy": "https://github.com/drthisguy/11-HR-Express",
+        "image": "https://user-images.githubusercontent.com/48693333/77019460-f6fb7500-6956-11ea-93bb-7744ffd659a2.gif"
+    },    
     {
         "name": "About The Weather",
         "desc": "An Openweather API Application",
