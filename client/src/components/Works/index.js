@@ -18,7 +18,7 @@ export default function Works({ works }) {
                     </a>
                 </div>
             </div>
-            <a href ></a>
+            <a href={work.repo} style={{float:'right'}} target="_blank" rel="noreferrer noopener">Repo</a>
         </Col>
         ))
     )
