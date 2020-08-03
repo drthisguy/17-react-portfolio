@@ -1,9 +1,9 @@
 import React from 'react'
-import { useLocation as location } from 'react-router-dom'
+import { useLocation } from 'react-router-dom'
 
 export default function Footer({ navState }) {
 
-    const { pathname } = location();
+    const { pathname } = useLocation();
     return (
         <div>
             <footer 

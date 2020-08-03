@@ -1,8 +1,10 @@
-import React from 'react'
+import React, { Fragment } from 'react'
 import { Col } from '../Grid'
+import { useLocation } from 'react-router-dom'
 
 export default function Works({ works }) {
-    
+
+    const { pathname } = useLocation();
     return (
     works.map( (work, i) => (
         <Col size='md-4' key={i} >
@@ -18,7 +20,8 @@ export default function Works({ works }) {
                     </a>
                 </div>
             </div>
-            <a href={work.repo} style={{float:'right'}} target="_blank" rel="noreferrer noopener">Repo</a>
+            { pathname === '/' ? <Fragment /> : 
+            <a href={work.repo} style={{float:'right'}} target="_blank" rel="noreferrer noopener">Repo</a> }
         </Col>
         ))
     )

@@ -7,12 +7,11 @@ export const Collapse = ({ classes, children, id }) => <div className={classes} 
 
 export const Row = ({ classes, children }) => <div className={classes ? `row ${classes}`: 'row'}>{children}</div>
 
-export const Col = ({ size, classes, children }) => {
-    const theClass = classes ? classes : ''
-    return ( <div 
-        className={size.split(' ').map( size => `col-${size}`).join(' ')
-        +" "+ theClass}>{children}
+export const Col = ({ size, classes, children }) => (
+         <div 
+            className={size.split(' ').map( size => `col-${size}`).join(' ')
+            +" "+ classes || ''}>{children}
         </div>
     )
-}       
+
     
