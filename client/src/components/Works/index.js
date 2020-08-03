@@ -1,10 +1,11 @@
 import React from 'react'
+import { Col } from '../Grid'
 
 export default function Works({ works }) {
     
     return (
     works.map( (work, i) => (
-        <div key={i} className={'col carousel-cell'}>
+        <Col size='md-4' key={i} >
             <div className={'set-image-txt'}>
                 <div className={'images'}>
                     <div className={'darken-txt'}>
@@ -17,7 +18,8 @@ export default function Works({ works }) {
                     </a>
                 </div>
             </div>
-        </div>
+            <a href ></a>
+        </Col>
         ))
     )
 }

@@ -3,54 +3,63 @@
         "name": "Sapling Zone Clock App",
         "desc": "An Application for configuring Sapling Zone Clocks for their applicable cities",
         "deploy": "https://sapling-zoneclocks.herokuapp.com/",
+        "repo": "https://github.com/drthisguy/Zone-Clock-App",
         "image": "https://user-images.githubusercontent.com/48693333/87717409-55f2be80-c77e-11ea-84e0-4e2711081606.png"
     },
     {
         "name": "myEHR",
         "desc": "A full MERN stack app for maintaining the health records for family or others, cared for.",
         "deploy": "https://myehrs.herokuapp.com/",
+        "repo": "https://github.com/drthisguy/myEHR",
         "image": "https://user-images.githubusercontent.com/48693333/81631559-1b635300-93d6-11ea-9de1-5181f3211ffd.gif"
     },
     {
         "name":"Harry Potter Trivia",
         "desc":"A fun quiz game to test your knowledge",
         "deploy":"https://drthisguy.github.io/04-Harry-Potter-Trivia-Game",
+        "repo":"https://github.com/drthisguy/04-Harry-Potter-Trivia-Game",
         "image":"https://user-images.githubusercontent.com/48693333/72928515-1f377080-3d26-11ea-9767-dcf5568b370b.png"
     },
     {
         "name": "Penny Pincher",
         "desc": "A full stack budgeting app to track personal expenses by their priorities",
         "deploy": "https://pennypincha.herokuapp.com",
+        "repo": "https://github.com/drthisguy/P2-The-Penny-Pincher",
         "image": "https://user-images.githubusercontent.com/48693333/77022098-139bab00-695f-11ea-8b6a-36cfdb1dee34.gif"
     },
     {
         "name": "GitProfiler",
         "desc": "CLI to generate PDFs for any developer's profile from their GitHub usernames",
         "deploy": "https://github.com/drthisguy/08-Dev-Profile-Generator",
+        "repo": "https://github.com/drthisguy/08-Dev-Profile-Generator",
         "image": "https://user-images.githubusercontent.com/48693333/77002626-319ee680-6932-11ea-9763-070cc7cce6e5.gif"
     },
     {
         "name": "The Reader Succeeder",
-        "desc": "A full MERN application for managing your reading list with google books",
+        "desc": "A full MERN stack app for managing your reading list with google books",
         "deploy": "https://succeeder-reader.herokuapp.com/",
+        "repo": "https://github.com/drthisguy/18-succeeder-reader-list",
         "image": "https://user-images.githubusercontent.com/48693333/80837580-14ae3200-8bc5-11ea-8548-a7587317b039.png"
     },
     {
         "name": "HR Express",
         "desc": "CLI content management system for company, HR departments",
         "deploy": "https://github.com/drthisguy/11-HR-Express",
+        "repo": "https://github.com/drthisguy/11-HR-Express",
         "image": "https://user-images.githubusercontent.com/48693333/77019460-f6fb7500-6956-11ea-93bb-7744ffd659a2.gif"
     },    
     {
         "name": "About The Weather",
         "desc": "An Openweather API Application",
         "deploy": "https://drthisguy.github.io/06-About-The-Weather",
+        "repo": "https://github.com/drthisguy/06-About-The-Weather",
         "image": "https://user-images.githubusercontent.com/48693333/77138879-145d3b80-6a4a-11ea-80c6-4a3bc3dc35e0.png"
     },
     {
         "name": "WishDish",
         "desc": "A restaurant application built for speed and ease",
         "deploy": "https://dioris-cpu.github.io/group-Project-1",
+        "repo": "https://github.com/Dioris-cpu/group-Project-1",
         "image": "https://user-images.githubusercontent.com/48693333/77028924-a7c23e00-6970-11ea-8a94-92daa2884025.png"
     }
 ]
