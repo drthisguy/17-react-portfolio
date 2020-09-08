@@ -24,7 +24,7 @@ export default function Home({ portfolio }) {
             </Container>
 
             <Container classes={custom.carousel} >
-                <Row >
+                <Row classes="justify-content-center">
                     <Works works={topRow} />
                 </Row>
             </Container>

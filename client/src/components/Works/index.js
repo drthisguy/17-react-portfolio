@@ -7,8 +7,8 @@ export default function Works({ works }) {
     const { pathname } = useLocation();
     return (
     works.map( (work, i) => (
-        <Col size='md-4' key={i} >
-            <div className={'set-image-txt'}>
+        <Col size='md-4' key={i}  >
+            <div className={'set-image-txt'} style={window.innerWidth <= 768 ?{maxWidth:"fit-content", marginBottom:"2rem"}:{}}>
                 <div className={'images'}>
                     <div className={'darken-txt'}>
                             <h4>{work.name}</h4>
@@ -19,9 +19,9 @@ export default function Works({ works }) {
                         <img className={'img-fluid'} src={work.image} alt={work.name}/>
                     </a>
                 </div>
-            </div>
             { pathname === '/' ? <Fragment /> : 
             <a href={work.repo} style={{float:'right'}} target="_blank" rel="noreferrer noopener">Repo</a> }
+            </div>
         </Col>
         ))
     )
